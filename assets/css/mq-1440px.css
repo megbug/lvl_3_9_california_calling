@@ -1,0 +1,109 @@
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    html {
+        font-size: 8px;
+    }
+
+    header {
+        padding: 0 10%;
+    }
+
+    /* ====================
+    main facts-n-numbers
+    ==================== */ 
+
+    main .facts-n-numbers {
+        background-position: 98% 80%;
+        background-size: 65vh;
+    }
+
+    main .facts-n-numbers h3 {
+        font-size: 1.6rem;
+    }
+
+    /* ====================
+    main stuck-in grid 1
+    ==================== */
+
+    main .stuck-in h2 {
+        width: 30vw;
+    }
+
+    main .stuck-in p {
+        width: 27vw;
+    }
+
+    main .stuck-in p:nth-of-type(2) {
+        width: 27vw;
+    }
+
+    /* ====================
+    main bear
+    ==================== */
+
+    main .golden-bear article {
+        padding: 30vh 10%;
+    }
+
+    main .golden-bear article div h3 {
+        margin-bottom: 3vh;
+    }
+
+    main .golden-bear article div:nth-of-type(1) h2 {
+        font-size: 15rem;
+        line-height: 15rem;
+    }
+
+    main .golden-bear article div:nth-of-type(2) {
+        width: 40vw;
+        padding-left: 7vw;
+    }
+
+    main .golden-bear article div:nth-of-type(2) p:nth-of-type(1) {
+        width: 35vw;
+        font-size: 4.5rem;
+    }
+
+    /* ====================
+    main poppy-bear
+    ==================== */
+
+    main .poppy-bear #circle {
+        width: 30%;
+        left: 80%;
+        top: -10%;
+    }
+
+    main .poppy-bear article {
+        padding: 40vh 10% 20vh 10%;
+    }
+
+    main .poppy-bear article div:nth-of-type(1) h2 {
+        font-size: 15rem;
+        line-height: 15rem;
+    }
+
+    main .poppy-bear article div:nth-of-type(2) p{
+        width: 34vw;
+        font-size: 4.5rem;
+    }
+
+    main .poppy-bear article div:nth-of-type(2) {
+        width: 40vw;
+        padding-left: 5vw;
+    }
+
+    main .poppy-bear .poppy-img {
+        padding: 0 10%;
+    }
+
+    main .poppy-bear .poppy-img img:nth-of-type(1) {
+        width: 80%;
+        justify-self: center;
+        position: relative;
+    }
+    
+    main .poppy-bear .poppy-img img:nth-of-type(2) {
+        width: 120%;
+        margin-left: -10vw;
+    }
+}

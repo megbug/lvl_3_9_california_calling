@@ -425,7 +425,7 @@ main .join-us .banner-container .banner {
     overflow: hidden;
     width: 200vw;
     top: -10vh;
-    left: -35vw;
+    left: -28vw;
     rotate: 45deg;
     display: inline-block;
     animation-name: banner;
@@ -439,10 +439,10 @@ main .join-us .banner-container .banner {
         transform: translate(800px, 0);
     }
     50% {
-        transform: translate(600px, 0);
+        transform: translate(400px, 0);
     }
     100% {
-        transform: translate(400px, 0);
+        transform: translate(0px, 0);
     }
 }
 
